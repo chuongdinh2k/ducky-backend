@@ -10,7 +10,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/user", (req, res) => {
-  return res.status(200).send("Hello world 123!");
+  return res.status(200).send("Hello I am Chuongdev!");
 });
 
 app.listen(port, () => {
