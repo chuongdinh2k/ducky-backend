@@ -6,7 +6,7 @@ const app = express();
 const port = process.env.PORT || 8080;
 
 app.get("/", (req, res) => {
-  res.send("Express + TypeScript Server 123");
+  res.send("Welcome to Ducky Project - chuongdev");
 });
 
 app.get("/user", (req, res) => {
